@@ -13,7 +13,7 @@ class Castov < Formula
   end
 
   test do
-    assert_match "1.3.3", shell_output("#{bin}/castov --version")
+    assert_match "1.4.0", shell_output("#{bin}/castov --version")
     assert_match "UUID", shell_output("#{bin}/castov uuid")
   end
 end
